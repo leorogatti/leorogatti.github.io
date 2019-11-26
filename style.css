@@ -1,0 +1,151 @@
+
+body { 
+
+  background: #1b1b22 url(img/background.svg) no-repeat center top;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  text-align: center;
+  padding-top: 155px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #DADADA;
+  font-weight: bold;
+}
+
+.linha {
+  background: #7159c1;
+  width: 40px;
+  height: 3px;
+  margin: 20px auto;
+}
+
+.linha2 {
+  background: #7159c1;
+  width: 40px;
+  height: 3px;
+  margin: 20px 0;
+}
+
+.p1 {
+  font-size: 16px;
+  color: #DADADA;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #DADADA;
+  font-style: normal;
+  margin-top: 60px;
+}
+
+.projetos {
+  width: 365px;
+  margin: 0 auto;
+}
+
+
+#repositorios {
+  font-size: 16px;
+  font-weight: bold;
+  color: #7159c1;
+  font-style: normal;
+  height: 187%;
+  transition: opacity .2s;
+}
+
+#repositorios:hover {
+  opacity: 0.8;
+}
+#fortnite {
+  font-size: 12px;
+  color: #DADADA;
+
+  font-weight: bold;
+
+  line-height: 250%;
+  padding-bottom: 20px;
+}
+
+#barbeariaalura {
+  font-size: 16px;
+  font-weight: bold;
+  color: #7159c1;
+  font-style: normal;
+  transition: opacity .2s;
+}
+
+#barbeariaalura:hover {
+  opacity: 0.8;
+}
+
+#barbearia {
+  font-size: 12px;
+  color: #DADADA;
+
+  font-weight: bold;
+
+  line-height: 250%;
+  
+}
+
+#tresponto {
+  font-size: 12px;
+  color: #DADADA;
+
+  font-weight: bold;
+
+  line-height: 250%;
+  padding-bottom: auto;
+}
+
+
+.imagens {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.github {
+  transition: opacity .2s;
+  display: inline;
+}
+
+.twitter {
+  transition: opacity .2s;
+  display: inline;
+}
+
+.email {
+  transition: opacity .2s;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+ opacity: 0.8;
+}
+
+a + a {
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  header, main {
+    padding: 0 20px; 
+  }
+
+  header {
+    padding-top: 100px;
+  }
+}
