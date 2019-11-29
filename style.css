@@ -97,6 +97,28 @@ h2 {
   
 }
 
+#leotify {
+  font-size: 16px;
+  font-weight: bold;
+  color: #7159c1;
+  font-style: normal;
+  transition: opacity .2s;
+}
+
+#leotify:hover {
+  opacity: 0.8;
+}
+
+#leotfy {
+  font-size: 12px;
+  color: #DADADA;
+
+  font-weight: bold;
+
+  line-height: 250%;
+  
+}
+
 #tresponto {
   font-size: 12px;
   color: #DADADA;
