@@ -124,6 +124,28 @@ p#fortnite {
   
 }
 
+#flex {
+  font-size: 16px;
+  font-weight: bold;
+  color: #7159c1;
+  font-style: normal;
+  height: 187%;
+  transition: opacity .2s;
+}
+
+#flex:hover {
+  opacity: 0.8;
+}
+#grid {
+  font-size: 12px;
+  color: #DADADA;
+
+  font-weight: bold;
+
+  line-height: 250%;
+  padding-bottom: 20px;
+}
+
 #tresponto {
   font-size: 12px;
   color: #DADADA;
@@ -132,6 +154,11 @@ p#fortnite {
 
   line-height: 250%;
   padding-bottom: auto;
+}
+
+p#grid {
+  margin: 0;
+  padding: 0;
 }
 
 
